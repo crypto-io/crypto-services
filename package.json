@@ -5,12 +5,12 @@
   "repository": "https://github.com/crypto-io/crypto-services",
   "author": "VandeurenGlenn <vandeurenglenn@gmail.com>",
   "license": "MIT",
-  "private": false,
   "scripts": {
-    "install": "cd node_modules/crypto-paper-wallet && npm install && cd ../../"
+    "install": "sh services.sh"
   },
+  "private": false,
   "dependencies": {
-    "crypto-paper-wallet": "^0.1.0",
+    "crypto-paper-wallet": "^0.1.3",
     "express": "^4.16.2"
   }
 }
